@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css?family=Marcellus&display=swap');
+
+body{
+    font-family: 'Marcellus', serif;
+    height: auto;
+    width: 98.7vw;
+    margin: 0;
+    background-color: rgb(231, 230, 230);
+}
+header{
+	display: flex;
+	background-color: #303030;
+	width: 100%;
+    position: fixed;
+    align-content: center;
+    color: darkgrey;
+    top: 0;
+
+}
+footer{
+    background-color: #303030;
+    color: darkgrey;
+    font-size: 30px;
+    width: 100%;
+}
+nav{
+    display: flex;
+	font-size: 20px;
+    justify-content: center;
+    align-content: center;
+    padding-top: 10px;
+}
+#linkLogo{
+    display:flex; 
+    text-decoration: none;
+}
+#lisNav .align{
+    list-style-type: none;
+	display: block;
+	float: left;
+	margin-left:40px;
+}
+.linkNav{
+    text-decoration: none;
+    color: darkgrey;
+}
+#linknavmain{
+    text-decoration: none;
+    color: darkgrey;
+    padding-left: 5px;
+}
+#navLogo{
+    width:200px;
+    padding: 5px;
+    height: 77px;
+}
+.sous{
+    display:none;
+    position: absolute;
+    margin-left:-40px;
+    background-color: #303030;
+    padding-bottom: 10px;
+    padding-right: 25px;
+}
+.lisSou{
+    list-style-type: none;
+}
+li:hover .sous{
+    display: block;
+}
+#navfooter{
+    display: flex;
+    flex-wrap: wrap;
+}
+#secfooter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+#resfoot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+#resfoot2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 120px;
+    width: 180px;
+}
+.listFoot{
+	list-style-type: none;
+    font-size: 30px;
+}
+.linkfoot{
+	text-decoration: none;
+    font-size: 24px;
+    color: darkgrey;
+}
+.linkfoot2{
+    height: 50px;
+}
+.réseaux{
+    display: block;
+    height: 50px;
+    width: 50px;
+    line-height: 60px;
+    border-radius: 40%;
+    background-color: darkgrey;
+}
+.réseaux:hover{
+    background-color: #303030;
+    border-radius: 0;
+}
+
+/* Contact */
+
+#maincontact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding-top: 100px;
+    text-align: center;
+}
+form{
+    color: #303030;
+    font-size: 25px;
+    width: 600px;
+    margin: 0;
+    margin: auto;
+    padding: 15px;
+}
+#mybutton{
+    box-shadow: 0px 10px 14px -7px rgb(216, 53, 53);
+	background-color:rgb(216, 53, 53);
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family: 'Marcellus', serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px rgb(199, 200, 201);
+}
+#mybutton:hover {
+    background-color:rgb(161, 18, 18);
+    color: rgb(250, 215, 17);
+}
+#mybutton:active {
+	position:relative;
+	top:1px;
+}
+label{
+    display: block;
+    width: 340px;
+    float: left;
+}
+.input1{
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    width: 240px;
+}
+textarea{
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #303030;
+    border-width: 2px;
+    width: 240px;
+}
+input:focus {
+	outline:none;
+}
+#titrecontact{
+    font-size: 40px;
+}
+
+/*Communauté*/
+
+#maincommu{
+    margin-top: 100px;
+    text-align: center;
+}
+#titrecommu{
+    font-size: 40px;
+    border-radius:20px;
+    background-color:#C2C2C0;
+    padding: 10px;
+}
+#sectioncommu{
+    margin: auto;
+    width: 1000px;
+    margin-bottom: 40px;
+}
+.screencommu{
+    width: 500px;
+}
+.articlecommu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+}
+.div-commu{
+    border-radius:20px;
+    background-color:#C2C2C0;
+}
+.texte-commu{
+    margin:10px;
+}
+#fansite-commu{
+    background-image: url("image/wallpaper-commu.jpg");
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* event */
+
+#mainevent{
+    padding-top: 80px;
+    text-align: center;
+}
+#titreevent{
+    font-size: 40px;
+    background-color:#C2C2C0;
+    border-radius:20px;
+    padding: 10px;
+}
+#sectionevent{
+    padding-left: 5px;
+}
+.articleevent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+}
+.imgevent{
+    padding-bottom: 10px;
+    height:100%;
+    width:auto;
+}
+.event{
+    background-color:#C2C2C0;
+    border-radius:20px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.event:hover{
+    border-radius:0px;
+    background-color:#8F8F8D;
+}
+.lien-event{
+    color:#303030;
+    text-decoration: none;
+}
+.lien-event:visited{
+    color:#303030;
+}
+.lien-event:hover{
+    text-decoration:underline;
+}
+#fansite-event{
+    background-image: url("image/wallpaper-event.jpg");
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*----------------------ACCUEIL----------------*/
+/*----------------------BACKGROUND---------------*/
+#fansite-accueil{
+    background-image: url("image/accueil/wallpaper.jpg");
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*----------------------IMAGES-----------------*/
+#img-accueil1{
+    width:242px;
+    height:311px;
+    display: flex;
+    justify-content: left;
+}
+#img-accueil2{
+    width:290px;
+    height:250px;
+    margin-left:150px;
+}
+#img-accueil3{
+    width:222px;
+    height:340px;
+}
+/*-------------------DIV---------------*/
+.bienvenue-accueil{
+    background-color:#C2C2C0;
+    font-family: 'Marcellus', serif;
+    font-size:24px;
+    border-radius:20px;
+    display: flex;
+    margin-left:15px;
+    margin-bottom:30px;
+}
+.bienvenue-accueil:hover{
+    border-radius: 0px;
+    background-color:#8F8F8D;
+}
+#maj-accueil{
+    background-color:rgba(128, 34, 34, 0.589);
+    font-family: 'Marcellus', serif;
+    font-size:30px;
+    width:auto;
+    margin-bottom:30px;
+    display: block;
+    text-align:center;
+    padding: 10px;
+    margin-top: 120px;
+}
+#video-accueil{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+/*--------------TEXTE--------------*/
+.texte-accueil1{
+    text-align: right;
+    margin-top:90px;
+    margin-right:15px;
+}
+#texte-accueil2{
+    flex-direction: column;
+    margin-top:90px;
+}
+.lien-accueil{
+    color:#303030;
+    text-decoration: none;
+}
+.lien-accueil:hover{
+    text-decoration:underline;
+    color: #471C1E;
+}
+.lien-accueil:visited{
+    color:#303030;
+}
+/*----------MISE A JOUR------------*/
+/*-------------BODY--------------*/
+#grid{
+    display:flex;
+}
+/*--------IMG----------*/
+.img-maj{
+    display: flex;
+    width:330px;
+    height:auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*-----------DIV---------*/
+.img-maj1{
+    width:330px;
+    height:auto;
+    background-color:#C2C2C0;
+    border-radius:20px;
+}
+.texte-maj{
+    margin-left:5px;
+}
+/*----------FLEX---------*/
+#maj1{
+    margin-top: 150px;
+    margin-left : 3%;
+    margin-right: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+#maj2, #maj3{
+    margin-top: 55px;
+    margin-bottom: 55px;
+    margin-left : 3%;
+    margin-right: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.img-maj1:hover{
+    border-radius:0px;
+    background-color: #8F8F8D;
+}
+/*----------------------TEXTE-----------*/
+.lien-maj{
+    text-decoration:none;
+    color:#471C1E;
+}
+.lien-maj:hover{
+    text-decoration: underline;
+}
+.lien-maj:visited{
+    color:#303030;
+}
+/*-------------BACKGROUND--------------*/
+#fansite-maj{
+    background-image: url("image/maj/wallpaper.png");
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
